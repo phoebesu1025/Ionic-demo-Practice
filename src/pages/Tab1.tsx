@@ -33,7 +33,9 @@ const Tab1: React.FC = () => {
                 subHeader: "Do you want to edit this page",
                 buttons: [
                   {
-                    text: "deleeeetooo",
+                    text: "Deleteeeetotototot",
+=======
+                    
                     role: "destructive",
                     data: {
                       action: "delete",

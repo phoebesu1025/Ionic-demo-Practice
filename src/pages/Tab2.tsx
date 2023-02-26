@@ -13,7 +13,7 @@ const Tab2: React.FC = () => {
 
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Photo Gallery</IonTitle>
+          <IonTitle>Photo gallery</IonTitle>
         </IonToolbar>
       </IonHeader>
 
@@ -25,7 +25,7 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        <ExploreContainer name="why it's not changed" />
 
         <IonGrid>
           <IonRow>

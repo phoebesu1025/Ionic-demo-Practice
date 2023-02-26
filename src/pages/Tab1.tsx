@@ -1,9 +1,16 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, useIonActionSheet } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab1.css';
-import { useState } from 'react';
-import type { OverlayEventDetail } from '@ionic/core'
-
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+  IonButton,
+  useIonActionSheet,
+} from "@ionic/react";
+import ExploreContainer from "../components/ExploreContainer";
+import "./Tab1.css";
+import { useState } from "react";
+import type { OverlayEventDetail } from "@ionic/core";
 
 const Tab1: React.FC = () => {
   const [present] = useIonActionSheet();
@@ -17,35 +24,32 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-
-
-
       <IonContent fullscreen>
         <div className="container">
           <IonButton
             onClick={() =>
               present({
-                header: 'edit',
-                subHeader: 'Do you want to edit this page',
+                header: "edit",
+                subHeader: "Do you want to edit this page",
                 buttons: [
                   {
-                    text: 'Delete',
-                    role: 'destructive',
+                    text: "deleeeetooo",
+                    role: "destructive",
                     data: {
-                      action: 'delete',
+                      action: "delete",
                     },
                   },
                   {
-                    text: 'Share',
+                    text: "Share",
                     data: {
-                      action: 'share',
+                      action: "share",
                     },
                   },
                   {
-                    text: 'Cancel',
-                    role: 'cancel',
+                    text: "Cancel",
+                    role: "cancel",
                     data: {
-                      action: 'cancel',
+                      action: "cancel",
                     },
                   },
                 ],

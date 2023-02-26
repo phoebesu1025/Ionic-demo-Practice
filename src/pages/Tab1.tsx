@@ -34,6 +34,8 @@ const Tab1: React.FC = () => {
                 buttons: [
                   {
                     text: "Deleteeeetotototot",
+=======
+                    
                     role: "destructive",
                     data: {
                       action: "delete",
